@@ -72,8 +72,8 @@
             <version>4.5.0</version>
         </dependency>
         <dependency>
-            <groupId>com.ww.stockscreener</groupId>
-            <artifactId>core</artifactId>
+            <groupId>com.ww.stockscreener.core</groupId>
+            <artifactId>stockscreener-core</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
