@@ -19,12 +19,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -67,20 +61,10 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.polygon-io</groupId>
-            <artifactId>client-jvm</artifactId>
-            <version>4.5.0</version>
-        </dependency>
-        <dependency>
             <groupId>com.ww.stockscreener.core</groupId>
             <artifactId>stockscreener-core</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib-jdk7</artifactId>
-            <version>1.8.22</version>
         </dependency>
         <dependency>
             <groupId>net.sizovs</groupId>
